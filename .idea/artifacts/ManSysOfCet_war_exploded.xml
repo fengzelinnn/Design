@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ManSysOfCet:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ManSysOfCet_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ManSysOfCet/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ManSysOfCet" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="servlet-api" />
+          <element id="library" level="project" name="commons-io-2.10.0" />
+          <element id="library" level="project" name="commons-fileupload-1.4" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
