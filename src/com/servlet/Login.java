@@ -32,11 +32,13 @@ public class Login extends HttpServlet {
                 break;
             }
         }
-        if (flag) printWriter.println("<h1 align='center'>"+request.getParameter("username")+"Welcome"+"<h1>");
+        if (flag) printWriter.println("<h1 align='center'>"+request.getParameter("username")+"Welcome"+"<h1>" +
+                "<a href=\"Admission.html\">login</a>");
         if(line == null) {
             printWriter.println("<a href=\"login.html\">login</a>");
             printWriter.println("<a href=\"register.html\">register</a>");
             printWriter.println("<script language='javascript'>alert('No Such Username')</script>");
         }
+
     }
 }
