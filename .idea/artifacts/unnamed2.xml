@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="unnamed2">
+    <output-path>$PROJECT_DIR$/out/artifacts/unnamed2</output-path>
+    <root id="archive" name="unnamed.war">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/ManSysOfCet_war_exploded/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/com/servlet/User.txt" />
+      <element id="artifact" artifact-name="ManSysOfCet:war exploded" />
+    </root>
+  </artifact>
+</component>

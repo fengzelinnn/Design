@@ -5,6 +5,7 @@
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="ManSysOfCet" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/User.txt" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="servlet-api" />
@@ -13,7 +14,6 @@
         </element>
       </element>
       <element id="javaee-facet-resources" facet="ManSysOfCet/web/Web" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/User.txt" />
     </root>
   </artifact>
 </component>
