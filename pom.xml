@@ -26,7 +26,7 @@
     <configuration>  
         <encoding>${project.build.sourceEncoding}</encoding>  
         <warName>platform</warName>  
-        <webappDirectory>${project.build.directory}/target</webappDirectory>  
+        <webappDirectory>${{ github.workspace }}/target</webappDirectory>  
         <warSourceDirectory>WebContent</warSourceDirectory>  
     </configuration>  
 </plugin>  
